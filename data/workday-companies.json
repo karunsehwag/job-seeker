@@ -1,0 +1,37 @@
+[
+  {
+    "tenant": "salesforce",
+    "wd": 12,
+    "site": "External_Career_Site",
+    "total": 1489,
+    "url": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs"
+  },
+  {
+    "tenant": "dell",
+    "wd": 1,
+    "site": "External",
+    "total": 0,
+    "url": "https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs"
+  },
+  {
+    "tenant": "qualcomm",
+    "wd": 12,
+    "site": "External",
+    "total": 0,
+    "url": "https://qualcomm.wd12.myworkdayjobs.com/wday/cxs/qualcomm/External/jobs"
+  },
+  {
+    "tenant": "hp",
+    "wd": 5,
+    "site": "ExternalCareerSite",
+    "total": 728,
+    "url": "https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs"
+  },
+  {
+    "tenant": "micron",
+    "wd": 1,
+    "site": "External",
+    "total": 2858,
+    "url": "https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs"
+  }
+]

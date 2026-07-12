@@ -1,0 +1,15 @@
+{
+  "name": "job-seeker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "refresh": "node backend/fetchAll.js",
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}

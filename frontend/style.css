@@ -1,0 +1,164 @@
+:root {
+  --bg: #0b0d12;
+  --surface: #14171f;
+  --surface-hover: #1b1f2a;
+  --border: #262b38;
+  --text: #e8eaf0;
+  --text-dim: #9aa2b1;
+  --accent: #6ea8fe;
+  --accent-soft: rgba(110, 168, 254, 0.12);
+  --tag-bg: #1e2430;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f6f7fb;
+    --surface: #ffffff;
+    --surface-hover: #f0f2f8;
+    --border: #e2e5ee;
+    --text: #1a1d29;
+    --text-dim: #5b6270;
+    --accent: #2f6fed;
+    --accent-soft: rgba(47, 111, 237, 0.1);
+    --tag-bg: #eef1f8;
+  }
+}
+
+:root[data-theme="light"] {
+  --bg: #f6f7fb; --surface: #ffffff; --surface-hover: #f0f2f8; --border: #e2e5ee;
+  --text: #1a1d29; --text-dim: #5b6270; --accent: #2f6fed; --accent-soft: rgba(47, 111, 237, 0.1);
+  --tag-bg: #eef1f8;
+}
+:root[data-theme="dark"] {
+  --bg: #0b0d12; --surface: #14171f; --surface-hover: #1b1f2a; --border: #262b38;
+  --text: #e8eaf0; --text-dim: #9aa2b1; --accent: #6ea8fe; --accent-soft: rgba(110, 168, 254, 0.12);
+  --tag-bg: #1e2430;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.topbar {
+  border-bottom: 1px solid var(--border);
+  padding: 2rem 1.5rem 1.5rem;
+}
+.topbar-inner { max-width: 960px; margin: 0 auto; }
+.topbar h1 { margin: 0 0 0.35rem; font-size: 1.6rem; }
+.subtitle { margin: 0; color: var(--text-dim); font-size: 0.95rem; }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.section-head h2 { margin: 0; font-size: 1.15rem; }
+.meta { color: var(--text-dim); font-size: 0.85rem; }
+
+.controls { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+
+input[type="search"], select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 0.55rem 0.75rem;
+  font-size: 0.9rem;
+}
+#job-search, #dir-search { flex: 1; width: 100%; }
+select { flex: 0 0 auto; }
+
+.jobs-list { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 2.5rem; }
+
+.job-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  transition: background 0.15s;
+}
+.job-card:hover { background: var(--surface-hover); }
+
+.job-main { min-width: 0; }
+.job-title { font-weight: 600; margin: 0 0 0.2rem; font-size: 0.98rem; }
+.job-sub { color: var(--text-dim); font-size: 0.85rem; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.company-tag {
+  background: var(--tag-bg);
+  color: var(--accent);
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.apply-btn {
+  flex-shrink: 0;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 0.45rem 0.9rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.apply-btn:hover { background: var(--accent); color: var(--bg); }
+
+.dir-note { color: var(--text-dim); font-size: 0.85rem; margin: 0 0 0.75rem; line-height: 1.4; }
+
+.directory-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.company-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.65rem 0.8rem;
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.87rem;
+}
+.company-card:hover { background: var(--surface-hover); border-color: var(--accent); }
+.company-card .badge {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  flex-shrink: 0;
+}
+.company-card.unverified .badge { color: #d99a3d; }
+
+.loading, .empty { color: var(--text-dim); font-size: 0.9rem; }
+
+.footer {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  padding: 1.5rem;
+  border-top: 1px solid var(--border);
+  margin-top: 1rem;
+}

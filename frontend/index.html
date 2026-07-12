@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software Engineer Job Finder — India</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <h1>Software Engineer Job Finder</h1>
+      <p class="subtitle">Every new SDE / Software Developer opening, auto-collected in one list — Hyderabad, Delhi, Gurugram, Noida &amp; Bengaluru</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="jobs-section">
+      <div class="section-head">
+        <h2>Job openings</h2>
+        <span id="jobs-meta" class="meta"></span>
+      </div>
+      <div class="controls">
+        <input id="job-search" type="search" placeholder="Filter by company or title..." />
+        <select id="city-filter">
+          <option value="">All cities</option>
+          <option value="hyderabad">Hyderabad</option>
+          <option value="delhi">Delhi</option>
+          <option value="gurugram">Gurugram</option>
+          <option value="noida">Noida</option>
+          <option value="bengaluru">Bengaluru</option>
+        </select>
+      </div>
+      <div id="jobs-list" class="jobs-list">
+        <p class="loading">Loading live job listings...</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Sources: Greenhouse &amp; Lever board APIs, Amazon Jobs, Workday tenants. Not affiliated with any listed company. Refreshes each time you run the collector.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
