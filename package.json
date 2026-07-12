@@ -8,8 +8,5 @@
   },
   "dependencies": {
     "express": "^4.19.2"
-  },
-  "devDependencies": {
-    "playwright": "^1.61.1"
   }
 }
