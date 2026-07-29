@@ -1,10 +1,14 @@
-// Refreshes data/jobs.json by pulling live listings from every verified
+// Refreshes frontend/jobs.json by pulling live listings from every verified
 // company in data/companies.json (Greenhouse/Lever/Ashby/Workable/SmartRecruiters),
 // dedicated fetchers for companies with their own custom career-page backends
 // (Amazon, Microsoft, Apple, Flipkart, Swiggy, Rippling, Workday), Instahyre
 // (Indian tech job portal), and JSearch (Google for Jobs aggregation) which
 // reaches companies with fully custom career sites that no ATS-specific scan
 // can see - filtered to SDE1-equivalent roles in the target Indian cities.
+//
+// Output lives in frontend/ (not data/) so it can be served as a plain
+// static file - the same jobs.json works whether it's served by the local
+// Express server or by GitHub Pages, no API layer required.
 const fs = require("fs");
 const path = require("path");
 const { fetchAtsBoards } = require("./sources/atsBoards");
@@ -18,7 +22,7 @@ const { fetchWorkday } = require("./sources/workday");
 const { fetchJSearch } = require("./sources/jsearch");
 const { fetchInstahyre } = require("./sources/instahyre");
 
-const OUT_PATH = path.join(__dirname, "..", "data", "jobs.json");
+const OUT_PATH = path.join(__dirname, "..", "frontend", "jobs.json");
 
 function dedupe(jobs) {
   // Dedupe by apply URL - the one field that's actually unique per posting.

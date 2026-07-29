@@ -51,7 +51,7 @@ function saveFlags() {
 }
 
 async function loadJobs() {
-  const res = await fetch("/api/jobs");
+  const res = await fetch("jobs.json");
   const data = await res.json();
   allJobs = data.jobs || [];
   jobsMeta = { generatedAt: data.generatedAt, count: data.count };
