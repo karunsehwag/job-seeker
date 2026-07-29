@@ -68,7 +68,7 @@ body {
 .section-head h2 { margin: 0; font-size: 1.15rem; }
 .meta { color: var(--text-dim); font-size: 0.85rem; }
 
-.controls { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+.controls { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
 
 input[type="search"], select {
   background: var(--surface);
@@ -76,9 +76,11 @@ input[type="search"], select {
   color: var(--text);
   border-radius: 8px;
   padding: 0.55rem 0.75rem;
-  font-size: 0.9rem;
+  /* Keep this at 16px+ - Safari on iOS auto-zooms the whole page on focus
+     for any input under 16px, which feels like the page hangs/jumps. */
+  font-size: 16px;
 }
-#job-search, #dir-search { flex: 1; width: 100%; }
+#job-search, #dir-search { flex: 1; width: 100%; min-width: 200px; }
 select { flex: 0 0 auto; }
 
 .jobs-list { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 2.5rem; }
@@ -195,36 +197,6 @@ select { flex: 0 0 auto; }
 }
 .filter-check input { cursor: pointer; }
 
-.dir-note { color: var(--text-dim); font-size: 0.85rem; margin: 0 0 0.75rem; line-height: 1.4; }
-
-.directory-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 0.5rem;
-  margin-top: 0.75rem;
-}
-
-.company-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 0.65rem 0.8rem;
-  text-decoration: none;
-  color: var(--text);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.87rem;
-}
-.company-card:hover { background: var(--surface-hover); border-color: var(--accent); }
-.company-card .badge {
-  font-size: 0.7rem;
-  color: var(--text-dim);
-  flex-shrink: 0;
-}
-.company-card.unverified .badge { color: #d99a3d; }
-
 .loading, .empty { color: var(--text-dim); font-size: 0.9rem; }
 
 .footer {
@@ -234,4 +206,22 @@ select { flex: 0 0 auto; }
   padding: 1.5rem;
   border-top: 1px solid var(--border);
   margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .topbar { padding: 1.25rem 1rem 1rem; }
+  .topbar h1 { font-size: 1.3rem; }
+  .subtitle { font-size: 0.85rem; }
+  .container { padding: 1rem; }
+
+  .controls select,
+  .controls .flag-filters { width: 100%; }
+
+  .job-top { flex-direction: column; align-items: stretch; }
+
+  .job-actions { flex-direction: row; flex-wrap: wrap; width: 100%; }
+  .apply-btn { flex: 1 1 auto; text-align: center; }
+
+  .flag-toggles { flex-wrap: wrap; width: 100%; }
+  .flag-btn { flex: 1 1 auto; }
 }
