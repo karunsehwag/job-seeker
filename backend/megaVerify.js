@@ -11,6 +11,13 @@ const names = require("./megaCompanyNames");
 const CONCURRENCY = 40;
 const TIMEOUT_MS = 7000;
 
+// Known false positives - a slug that resolves on an ATS but isn't actually
+// that company's real hiring board (e.g. a stale test posting left behind
+// on someone else's account). Confirmed by inspecting the actual content.
+const KNOWN_FALSE_POSITIVES = new Set([
+  "uber:smartrecruiters", // single "Test UAT" posting from 2021, not Uber's real board
+]);
+
 function slugVariants(name) {
   const cleaned = name
     .replace(/\b(Inc|Technologies|Labs|Systems|Software|Solutions|Group|Global|Networks|Corporation|Corp|Ltd|Limited|Holdings|Financial|Company)\b/gi, "")
@@ -126,7 +133,9 @@ async function runPool(items, worker) {
     const existing = bySlug.get(f.slug);
     if (!existing || f.jobCount > existing.jobCount) bySlug.set(f.slug, f);
   }
-  const combined = [...bySlug.values()].sort((a, b) => a.slug.localeCompare(b.slug));
+  const combined = [...bySlug.values()]
+    .filter((c) => !KNOWN_FALSE_POSITIVES.has(`${c.slug}:${c.ats}`))
+    .sort((a, b) => a.slug.localeCompare(b.slug));
 
   const outPath = path.join(__dirname, "..", "data", "companies.json");
   fs.writeFileSync(outPath, JSON.stringify(combined, null, 2));
