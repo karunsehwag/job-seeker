@@ -89,12 +89,31 @@ select { flex: 0 0 auto; }
   border-radius: 10px;
   padding: 0.9rem 1rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.6rem;
   transition: background 0.15s;
 }
 .job-card:hover { background: var(--surface-hover); }
+
+.job-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.notes-input {
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.82rem;
+}
+.notes-input:focus { outline: none; border-color: var(--accent); }
+.notes-input::placeholder { color: var(--text-dim); }
 
 .job-main { min-width: 0; }
 .job-title { font-weight: 600; margin: 0 0 0.2rem; font-size: 0.98rem; }
@@ -121,6 +140,60 @@ select { flex: 0 0 auto; }
   white-space: nowrap;
 }
 .apply-btn:hover { background: var(--accent); color: var(--bg); }
+
+.job-card.status-applied { opacity: 0.7; }
+.job-card.status-not-interested { opacity: 0.5; }
+.job-card.status-contact-hr { border-color: #d99a3d; }
+
+.posted-tag { color: var(--text-dim); }
+
+.status-tag {
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.status-tag-applied { background: rgba(46, 158, 91, 0.15); color: #2e9e5b; }
+.status-tag-not-interested { background: rgba(150, 150, 150, 0.15); color: var(--text-dim); }
+.status-tag-contact-hr { background: rgba(217, 154, 61, 0.15); color: #d99a3d; }
+
+.job-actions { display: flex; flex-direction: column; gap: 0.4rem; align-items: stretch; flex-shrink: 0; }
+
+.flag-toggles { display: flex; gap: 0.35rem; }
+
+.flag-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 0.35rem 0.55rem;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.flag-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+.flag-btn.flag-applied.active { background: rgba(46, 158, 91, 0.15); border-color: #2e9e5b; color: #2e9e5b; }
+.flag-btn.flag-contact-hr.active { background: rgba(217, 154, 61, 0.15); border-color: #d99a3d; color: #d99a3d; }
+.flag-btn.flag-not-interested.active { background: rgba(150, 150, 150, 0.15); border-color: var(--text-dim); color: var(--text-dim); }
+
+.flag-filters {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0 0.25rem;
+  flex-wrap: wrap;
+}
+.filter-check {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.filter-check input { cursor: pointer; }
 
 .dir-note { color: var(--text-dim); font-size: 0.85rem; margin: 0 0 0.75rem; line-height: 1.4; }
 

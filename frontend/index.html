@@ -30,6 +30,18 @@
           <option value="noida">Noida</option>
           <option value="bengaluru">Bengaluru</option>
         </select>
+        <div class="flag-filters">
+          <label class="filter-check"><input type="checkbox" id="filter-applied" /> Applied</label>
+          <label class="filter-check"><input type="checkbox" id="filter-contact-hr" /> Contact HR</label>
+          <label class="filter-check"><input type="checkbox" id="filter-not-interested" /> Not interested</label>
+        </div>
+        <select id="date-filter">
+          <option value="">Any time posted</option>
+          <option value="1">Past 24 hours</option>
+          <option value="3">Past 3 days</option>
+          <option value="7">Past week</option>
+          <option value="30">Past month</option>
+        </select>
       </div>
       <div id="jobs-list" class="jobs-list">
         <p class="loading">Loading live job listings...</p>
