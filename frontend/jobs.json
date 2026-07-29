@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T13:55:55.686Z",
+  "generatedAt": "2026-07-29T13:57:24.834Z",
   "count": 247,
   "jobs": [
     {
@@ -9,14 +9,6 @@
       "location": "Noida, Uttar Pradesh",
       "url": "https://careers.adobe.com/us/en/job/R166975/Software-Development-Engineer",
       "updatedAt": null
-    },
-    {
-      "company": "Adobe Systems India Pvt Ltd",
-      "ats": "jsearch",
-      "title": "Full Stack Software Development Engineer",
-      "location": "Noida, Uttar Pradesh",
-      "url": "https://apna.co/job/noida/computer-scientist-ii-full-stack-1999806855",
-      "updatedAt": "2026-07-27T00:00:00.000Z"
     },
     {
       "company": "adyen",
@@ -1333,6 +1325,14 @@
       "updatedAt": "2026-06-16T07:10:51-04:00"
     },
     {
+      "company": "Gartner India Research & Advisory Services Private Limited",
+      "ats": "jsearch",
+      "title": "Full Stack Software Engineer (Java, React & AWS)",
+      "location": "Gurugram, Haryana",
+      "url": "https://www.shine.com/jobs/full-stack-software-engineer-java-react-aws/gartner-india-research-advisory-services-private-limited/19292915",
+      "updatedAt": "2026-07-25T00:00:00.000Z"
+    },
+    {
       "company": "gitlab",
       "ats": "greenhouse",
       "title": "Intermediate Backend Engineer - Analytics Instrumentation",
@@ -1504,14 +1504,6 @@
       "location": "Bengaluru, Karnataka",
       "url": "https://in.linkedin.com/jobs/view/full-stack-software-engineer-data-entitlements-platform-at-millennium-4445743975",
       "updatedAt": "2026-07-28T16:00:00.000Z"
-    },
-    {
-      "company": "Moody's",
-      "ats": "jsearch",
-      "title": "Software Engineer",
-      "location": "Noida, Uttar Pradesh",
-      "url": "https://careers.moodys.com/en/job/greater-noida/software-engineer/49841/96590315056",
-      "updatedAt": null
     },
     {
       "company": "NeuralGarage",
@@ -1687,6 +1679,14 @@
       "url": "https://www.instahyre.com/job-432846-android-engineer-at-rakuten-2-bangalore/"
     },
     {
+      "company": "Recro",
+      "ats": "jsearch",
+      "title": "Software Engineer - Android",
+      "location": "Gurugram, Haryana",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-android-at-recro-4442009539",
+      "updatedAt": "2026-07-20T00:00:00.000Z"
+    },
+    {
       "company": "rippling",
       "ats": "algolia",
       "title": "Software Engineer I - Backend Leaning FullStack",
@@ -1779,20 +1779,20 @@
       "updatedAt": "2026-07-24T00:00:00.000Z"
     },
     {
-      "company": "Speechify",
-      "ats": "jsearch",
-      "title": "Software Engineer, Platform - Noida, India",
-      "location": "Noida, Uttar Pradesh",
-      "url": "https://www.simplyhired.co.in/job/zBmN9ROGONxSdA18BYe9ErjSXAjmdyohAGnGbMVy1N1LH3H5Xh6tZw",
-      "updatedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
       "company": "stripe",
       "ats": "greenhouse",
       "title": "Software Engineer, Internal Systems",
       "location": "Bengaluru, India",
       "url": "https://stripe.com/jobs/search?gh_jid=7543868",
       "updatedAt": "2026-07-27T11:17:30-04:00"
+    },
+    {
+      "company": "StudyECart Technologies Pvt Ltd",
+      "ats": "jsearch",
+      "title": "OakNorth Junior Software Engineer Hiring | 15 LPA | Gurugram",
+      "location": "Gurugram, Haryana",
+      "url": "https://bebee.com/in/jobs/oaknorth-junior-software-engineer-hiring-15-lpa-gurugram-studyecart-technologies-pvt-ltd-gurugram--fj-2279466132",
+      "updatedAt": "2026-07-25T00:00:00.000Z"
     },
     {
       "company": "StudyECart Technologies Pvt Ltd",
