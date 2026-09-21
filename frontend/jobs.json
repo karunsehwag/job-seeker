@@ -1,36 +1,52 @@
 {
-  "generatedAt": "2026-09-20T09:22:01.789Z",
-  "count": 174,
+  "generatedAt": "2026-09-21T10:05:01.434Z",
+  "count": 184,
   "jobs": [
     {
-      "company": "Accenture",
+      "company": "314e Corporation",
       "ats": "instahyre",
-      "title": "Custom Software Engineer - Python",
-      "location": "Bangalore,Delhi,Hyderabad",
-      "url": "https://www.instahyre.com/job-439973-custom-software-engineer-python-at-accenture-2-bangalore-delhi-hyderabad/"
+      "title": "Software Engineer - Python",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-413817-software-engineer-python-at-314e-corporation-bangalore/"
     },
     {
-      "company": "Adobe",
+      "company": "314e Corporation",
       "ats": "instahyre",
-      "title": "Fullstack Developer - AI",
-      "location": "Noida",
-      "url": "https://www.instahyre.com/job-423997-fullstack-developer-ai-at-adobe-noida/"
+      "title": "Software Engineer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-423810-software-engineer-at-314e-corporation-bangalore/"
     },
     {
-      "company": "Adobe",
+      "company": "Adventure India Journey",
       "ats": "jsearch",
-      "title": "Software Development Engineer",
-      "location": "Noida, Uttar Pradesh",
-      "url": "https://careers.adobe.com/us/en/job/R171778/Member-of-Technical-Staff-II",
-      "updatedAt": "2026-09-16T00:00:00.000Z"
+      "title": "Software Engineer Ios Swift Ui Delhi Location Product Based New Delhi (India)",
+      "location": "New Delhi, Delhi",
+      "url": "https://www.shine.com/jobs/software-engineer-ios-swift-ui-delhi-location-product-based-new-delhi-india/adventure-india-journey/19503906",
+      "updatedAt": "2026-08-27T00:00:00.000Z"
     },
     {
       "company": "adyen",
       "ats": "greenhouse",
-      "title": "Software Engineer (Kotlin)",
+      "title": "Software Engineer (Java) - Authentication & Tokenization",
       "location": "Bengaluru",
-      "url": "https://job-boards.greenhouse.io/adyen/jobs/8075150",
-      "updatedAt": "2026-09-16T04:25:53-04:00"
+      "url": "https://job-boards.greenhouse.io/adyen/jobs/8111699",
+      "updatedAt": "2026-09-21T01:13:55-04:00"
+    },
+    {
+      "company": "Aight",
+      "ats": "jsearch",
+      "title": "Software Engineer-I",
+      "location": "Gurugram, Haryana",
+      "url": "https://wellfound.com/jobs/4379315-software-engineer-i",
+      "updatedAt": null
+    },
+    {
+      "company": "Alignerr",
+      "ats": "jsearch",
+      "title": "Software Engineer — AI Code Ranking",
+      "location": "Bengaluru, India",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-%E2%80%94-ai-code-ranking-at-alignerr-4469818914",
+      "updatedAt": "2026-09-21T01:00:00.000Z"
     },
     {
       "company": "amazon",
@@ -45,7 +61,7 @@
       "ats": "amazon",
       "title": "Software Development Engineer",
       "location": "Bengaluru, Karnataka, IND",
-      "url": "https://www.amazon.jobs/en/jobs/10530753/software-development-engineer",
+      "url": "https://www.amazon.jobs/en/jobs/10530754/software-development-engineer",
       "updatedAt": "September  6, 2026"
     },
     {
@@ -53,7 +69,7 @@
       "ats": "amazon",
       "title": "Software Development Engineer",
       "location": "Bengaluru, Karnataka, IND",
-      "url": "https://www.amazon.jobs/en/jobs/10530754/software-development-engineer",
+      "url": "https://www.amazon.jobs/en/jobs/10530753/software-development-engineer",
       "updatedAt": "September  6, 2026"
     },
     {
@@ -91,10 +107,26 @@
     {
       "company": "amazon",
       "ats": "amazon",
+      "title": "Software Development Engineer, Amazon",
+      "location": "Bengaluru, Karnataka, IND",
+      "url": "https://www.amazon.jobs/en/jobs/10554323/software-development-engineer-amazon",
+      "updatedAt": "September 21, 2026"
+    },
+    {
+      "company": "amazon",
+      "ats": "amazon",
       "title": "Software Development Engineer, FBA",
       "location": "Bengaluru, Karnataka, IND",
       "url": "https://www.amazon.jobs/en/jobs/10486982/software-development-engineer-fba",
       "updatedAt": "July 29, 2026"
+    },
+    {
+      "company": "amazon",
+      "ats": "amazon",
+      "title": "Software Development Engineer, Device Software Services",
+      "location": "Bengaluru, Karnataka, IND",
+      "url": "https://www.amazon.jobs/en/jobs/10524146/software-development-engineer-device-software-services",
+      "updatedAt": "September  1, 2026"
     },
     {
       "company": "amazon",
@@ -139,18 +171,26 @@
     {
       "company": "amazon",
       "ats": "amazon",
-      "title": "Software Development Engineer, Device Software Services",
-      "location": "Bengaluru, Karnataka, IND",
-      "url": "https://www.amazon.jobs/en/jobs/10524146/software-development-engineer-device-software-services",
-      "updatedAt": "September  1, 2026"
-    },
-    {
-      "company": "amazon",
-      "ats": "amazon",
       "title": "Software Development Engineer, Payroll Tech",
       "location": "Noida, Uttar Pradesh, IND",
       "url": "https://www.amazon.jobs/en/jobs/10466427/software-development-engineer-payroll-tech",
       "updatedAt": "July  6, 2026"
+    },
+    {
+      "company": "amazon",
+      "ats": "amazon",
+      "title": "Software Development Engineer, Amazon Prime",
+      "location": "Bengaluru, Karnataka, IND",
+      "url": "https://www.amazon.jobs/en/jobs/10467200/software-development-engineer-amazon-prime",
+      "updatedAt": "July  7, 2026"
+    },
+    {
+      "company": "amazon",
+      "ats": "amazon",
+      "title": "Software Development Engineer, RBS Tech",
+      "location": "Bengaluru, Karnataka, IND",
+      "url": "https://www.amazon.jobs/en/jobs/10554342/software-development-engineer-rbs-tech",
+      "updatedAt": "September 21, 2026"
     },
     {
       "company": "amazon",
@@ -167,14 +207,6 @@
       "location": "Hyderabad, Telangana, IND",
       "url": "https://www.amazon.jobs/en/jobs/10439823/software-development-engineer-fintech-tfaw",
       "updatedAt": "June  4, 2026"
-    },
-    {
-      "company": "amazon",
-      "ats": "amazon",
-      "title": "Software Development Engineer, Amazon Prime",
-      "location": "Bengaluru, Karnataka, IND",
-      "url": "https://www.amazon.jobs/en/jobs/10467200/software-development-engineer-amazon-prime",
-      "updatedAt": "July  7, 2026"
     },
     {
       "company": "amazon",
@@ -339,22 +371,6 @@
     {
       "company": "amazon",
       "ats": "amazon",
-      "title": "Software Development Engineer, Inventory Authority Platform (IAP)",
-      "location": "Bengaluru, Karnataka, IND",
-      "url": "https://www.amazon.jobs/en/jobs/10435267/software-development-engineer-inventory-authority-platform-iap",
-      "updatedAt": "June  1, 2026"
-    },
-    {
-      "company": "amazon",
-      "ats": "amazon",
-      "title": "Software Development Engineer I, IESP Merchant Tech",
-      "location": "Bengaluru, Karnataka, IND",
-      "url": "https://www.amazon.jobs/en/jobs/10544314/software-development-engineer-i-iesp-merchant-tech",
-      "updatedAt": "September 16, 2026"
-    },
-    {
-      "company": "amazon",
-      "ats": "amazon",
       "title": "Software Development Engineer, Payroll Tax & Accounting Tech",
       "location": "Hyderabad, Telangana, IND",
       "url": "https://www.amazon.jobs/en/jobs/10468622/software-development-engineer-payroll-tax-accounting-tech",
@@ -373,8 +389,16 @@
       "ats": "amazon",
       "title": "Software Development Engineer, Inventory Authority Platform (IAP)",
       "location": "Bengaluru, Karnataka, IND",
-      "url": "https://www.amazon.jobs/en/jobs/10435272/software-development-engineer-inventory-authority-platform-iap",
+      "url": "https://www.amazon.jobs/en/jobs/10435267/software-development-engineer-inventory-authority-platform-iap",
       "updatedAt": "June  1, 2026"
+    },
+    {
+      "company": "amazon",
+      "ats": "amazon",
+      "title": "Software Development Engineer I, IESP Merchant Tech",
+      "location": "Bengaluru, Karnataka, IND",
+      "url": "https://www.amazon.jobs/en/jobs/10544314/software-development-engineer-i-iesp-merchant-tech",
+      "updatedAt": "September 16, 2026"
     },
     {
       "company": "amazon",
@@ -445,7 +469,7 @@
       "ats": "amazon",
       "title": "Software Development Engineer, Amazon OpenSearch Service - Control Plane",
       "location": "Bengaluru, Karnataka, IND",
-      "url": "https://www.amazon.jobs/en/jobs/10497206/software-development-engineer-amazon-opensearch-service-control-plane",
+      "url": "https://www.amazon.jobs/en/jobs/10497203/software-development-engineer-amazon-opensearch-service-control-plane",
       "updatedAt": "August 10, 2026"
     },
     {
@@ -453,7 +477,7 @@
       "ats": "amazon",
       "title": "Software Development Engineer, Amazon OpenSearch Service - Control Plane",
       "location": "Bengaluru, Karnataka, IND",
-      "url": "https://www.amazon.jobs/en/jobs/10497203/software-development-engineer-amazon-opensearch-service-control-plane",
+      "url": "https://www.amazon.jobs/en/jobs/10497206/software-development-engineer-amazon-opensearch-service-control-plane",
       "updatedAt": "August 10, 2026"
     },
     {
@@ -537,11 +561,32 @@
       "updatedAt": "August  5, 2026"
     },
     {
-      "company": "Ambrosia Botanicals",
+      "company": "Amazon",
       "ats": "instahyre",
-      "title": "Fullstack Developer",
-      "location": "Gurgaon",
-      "url": "https://www.instahyre.com/job-443682-fullstack-developer-at-ambrosia-botanicals-gurgaon/"
+      "title": "Backend Engineer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-443830-backend-engineer-at-amazon-bangalore/"
+    },
+    {
+      "company": "Amazon",
+      "ats": "instahyre",
+      "title": "Backend Engineer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-438246-backend-engineer-at-amazon-bangalore/"
+    },
+    {
+      "company": "Amazon",
+      "ats": "instahyre",
+      "title": "Software Development Engineer in Test",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-439710-software-development-engineer-in-test-at-amazon-bangalore/"
+    },
+    {
+      "company": "Amazon",
+      "ats": "instahyre",
+      "title": "Backend Developer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-370456-backend-developer-at-amazon-bangalore/"
     },
     {
       "company": "anyscale",
@@ -789,6 +834,20 @@
       "url": "https://www.instahyre.com/job-394324-software-engineer-eos-team-at-arista-networks-bangalore-chennai/"
     },
     {
+      "company": "Arista Networks",
+      "ats": "instahyre",
+      "title": "Software Developer (C++)",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-375024-software-developer-c-plus-plus-at-arista-networks-bangalore/"
+    },
+    {
+      "company": "Arista Networks",
+      "ats": "instahyre",
+      "title": "Software Engineer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-416587-software-engineer-at-arista-networks-bangalore/"
+    },
+    {
       "company": "aristanetworks",
       "ats": "smartrecruiters",
       "title": "Software Developer(SRE) - CloudVision as a Service (CVaaS)",
@@ -821,6 +880,27 @@
       "updatedAt": "2026-08-12T12:24:22.612Z"
     },
     {
+      "company": "AtomicAds",
+      "ats": "instahyre",
+      "title": "Frontend Developer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-435251-frontend-developer-at-atomicads-2-bangalore/"
+    },
+    {
+      "company": "Bazaarvoice",
+      "ats": "instahyre",
+      "title": "Software Engineer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-441469-software-engineer-at-bazaarvoice-bangalore/"
+    },
+    {
+      "company": "Big Assets Infra",
+      "ats": "instahyre",
+      "title": "Frontend Developer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-442064-frontend-developer-at-big-assets-infra-bangalore/"
+    },
+    {
       "company": "Big Assets Infra",
       "ats": "instahyre",
       "title": "Frontend Engineer",
@@ -835,32 +915,12 @@
       "url": "https://www.instahyre.com/job-414978-frontend-engineer-at-big-assets-infra-bangalore/"
     },
     {
-      "company": "Big Assets Infra",
-      "ats": "instahyre",
-      "title": "Frontend Developer",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-442064-frontend-developer-at-big-assets-infra-bangalore/"
-    },
-    {
-      "company": "Big Assets Infra",
-      "ats": "instahyre",
-      "title": "Backend Engineer",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-414980-backend-engineer-at-big-assets-infra-bangalore/"
-    },
-    {
-      "company": "Blinkit",
-      "ats": "instahyre",
-      "title": "Software Development Engineer",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-350030-software-development-engineer-at-blinkit-bangalore/"
-    },
-    {
-      "company": "CapsLock",
-      "ats": "instahyre",
-      "title": "Software Development Engineer (Golang)",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-443502-software-development-engineer-golang-at-capslock-bangalore/"
+      "company": "Cisco",
+      "ats": "jsearch",
+      "title": "Software Engineer - Python, UI, AI, Exp: 4-8 Yrs, Bangalore",
+      "location": "Bengaluru, Karnataka",
+      "url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2014951EXTERNALENGLOBAL/Software-Engineer-Python-UI-AI-Exp-4-8-Yrs-Bangalore",
+      "updatedAt": "2026-09-18T00:00:00.000Z"
     },
     {
       "company": "Cognite",
@@ -868,6 +928,14 @@
       "title": "Software Engineer",
       "location": "Bangalore",
       "url": "https://www.instahyre.com/job-411234-software-engineer-at-cognite-bangalore/"
+    },
+    {
+      "company": "Computacenter",
+      "ats": "jsearch",
+      "title": "Full Stack .NET Software Developer",
+      "location": "Noida, Uttar Pradesh",
+      "url": "https://bebee.com/in/jobs/full-stack-net-software-developer-computacenter-noida--techmap_in_1671483443",
+      "updatedAt": "2026-09-16T00:00:00.000Z"
     },
     {
       "company": "consilium software",
@@ -878,11 +946,26 @@
       "updatedAt": "2026-09-19T00:00:00.000Z"
     },
     {
+      "company": "Consuma",
+      "ats": "instahyre",
+      "title": "Fullstack Engineer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-436079-fullstack-engineer-at-consuma-bangalore/"
+    },
+    {
       "company": "CredFlow AI",
       "ats": "instahyre",
       "title": "Fullstack Engineer",
       "location": "Gurgaon",
       "url": "https://www.instahyre.com/job-439190-fullstack-engineer-at-credflow-ai-gurgaon/"
+    },
+    {
+      "company": "crunchyroll",
+      "ats": "greenhouse",
+      "title": "Software Engineer",
+      "location": "Hyderabad, Telangana, India",
+      "url": "https://boards.greenhouse.io/crunchyroll/jobs/6696781?gh_jid=6696781",
+      "updatedAt": "2026-08-18T12:18:24-04:00"
     },
     {
       "company": "DAT Freight & Analytics",
@@ -892,19 +975,25 @@
       "url": "https://www.instahyre.com/job-443438-software-developer-at-dat-freight-analytics-bangalore/"
     },
     {
-      "company": "databricks",
-      "ats": "greenhouse",
-      "title": "Full Stack Developer (AI Agents)",
-      "location": "Bengaluru, India",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8632126002",
-      "updatedAt": "2026-09-18T01:53:38-04:00"
+      "company": "Deutsche Telekom Digital Labs",
+      "ats": "instahyre",
+      "title": "AI Backend Engineer",
+      "location": "Gurgaon",
+      "url": "https://www.instahyre.com/job-431944-ai-backend-engineer-at-deutsche-telekom-digital-labs-gurgaon/"
     },
     {
       "company": "Deutsche Telekom Digital Labs",
       "ats": "instahyre",
-      "title": "Backend Developer - Java",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-431643-backend-developer-java-at-deutsche-telekom-digital-labs-bangalore/"
+      "title": "Android Developer (Flutter)",
+      "location": "Gurgaon",
+      "url": "https://www.instahyre.com/job-443187-android-developer-flutter-at-deutsche-telekom-digital-labs-gurgaon/"
+    },
+    {
+      "company": "Deutsche Telekom Digital Labs",
+      "ats": "instahyre",
+      "title": "Android Developer",
+      "location": "Gurgaon",
+      "url": "https://www.instahyre.com/job-440423-android-developer-at-deutsche-telekom-digital-labs-gurgaon/"
     },
     {
       "company": "DevsUnite",
@@ -915,40 +1004,11 @@
       "updatedAt": "2026-09-16T00:00:00.000Z"
     },
     {
-      "company": "DMG Companies",
+      "company": "futurestaQ",
       "ats": "instahyre",
-      "title": "Backend Engineer",
-      "location": "Bangalore,Gurgaon",
-      "url": "https://www.instahyre.com/job-428075-backend-engineer-at-dmg-companies-bangalore-gurgaon/"
-    },
-    {
-      "company": "EPAM Systems",
-      "ats": "instahyre",
-      "title": "Backend Developer - Java Dsalgo",
-      "location": "Hyderabad",
-      "url": "https://www.instahyre.com/job-443468-backend-developer-java-dsalgo-at-epam-systems-hyderabad/"
-    },
-    {
-      "company": "Equiti Group",
-      "ats": "instahyre",
-      "title": "Web Developer",
+      "title": "Fullstack Developer - Java",
       "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-443583-web-developer-at-equiti-group-bangalore/"
-    },
-    {
-      "company": "ESRI",
-      "ats": "jsearch",
-      "title": "Software Development Engineer Test Automation Infrastructure (SDET)",
-      "location": "New Delhi, Delhi",
-      "url": "https://www.foundit.in/job/software-development-engineer-test-automation-infrastructure-sdet-esri-delhi-67390573",
-      "updatedAt": "2026-09-16T00:00:00.000Z"
-    },
-    {
-      "company": "Flipkart",
-      "ats": "instahyre",
-      "title": "Site Reliability Engineer",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-443514-site-reliability-engineer-at-flipkart-bangalore/"
+      "url": "https://www.instahyre.com/job-443892-fullstack-developer-java-at-futurestaq-bangalore/"
     },
     {
       "company": "gitlab",
@@ -959,32 +1019,33 @@
       "updatedAt": "2026-09-14T16:01:39-04:00"
     },
     {
-      "company": "GoComet",
+      "company": "GoKiwi",
       "ats": "instahyre",
-      "title": "Full Stack Engineer - AI",
+      "title": "SDE - 1",
       "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-439593-full-stack-engineer-ai-at-gocomet-3-bangalore/"
-    },
-    {
-      "company": "HDFC Credila Financial Services",
-      "ats": "instahyre",
-      "title": "Backend Engineer",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-366582-backend-engineer-at-hdfc-credila-financial-services-2-bangalore/"
-    },
-    {
-      "company": "HDFC Credila Financial Services",
-      "ats": "instahyre",
-      "title": "Backend Engineer",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-366656-backend-engineer-at-hdfc-credila-financial-services-2-bangalore/"
+      "url": "https://www.instahyre.com/job-387858-sde-1-at-gokiwi-bangalore/"
     },
     {
       "company": "HelloCounsel.ai",
       "ats": "instahyre",
-      "title": "Full Stack Engineer - Gen AI",
+      "title": "Software Engineer",
       "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-442103-full-stack-engineer-gen-ai-at-hellocounsel-bangalore/"
+      "url": "https://www.instahyre.com/job-443566-software-engineer-at-hellocounsel-bangalore/"
+    },
+    {
+      "company": "HelloCounsel.ai",
+      "ats": "instahyre",
+      "title": "Software Engineer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-443590-software-engineer-at-hellocounsel-bangalore/"
+    },
+    {
+      "company": "hevodata",
+      "ats": "lever",
+      "title": "Associate Software Development Engineer (SDE)",
+      "location": "Bangalore, India",
+      "url": "https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a",
+      "updatedAt": "2026-09-21T08:05:56.138Z"
     },
     {
       "company": "hevodata",
@@ -1002,18 +1063,18 @@
       "url": "https://www.instahyre.com/job-439467-software-development-engineer-at-highradius-hyderabad/"
     },
     {
-      "company": "HiLabs",
+      "company": "Hyperface",
       "ats": "instahyre",
-      "title": "Software Engineer - Frontend",
+      "title": "Software Development Engineer in Test - 1",
       "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-440771-software-engineer-frontend-at-hilabs-bangalore/"
+      "url": "https://www.instahyre.com/job-442108-software-development-engineer-in-test-1-at-hyperface-bangalore/"
     },
     {
-      "company": "Infosys",
+      "company": "InCred Financial Services",
       "ats": "instahyre",
-      "title": "Software Engineer",
-      "location": "Bangalore,Hyderabad,Pune",
-      "url": "https://www.instahyre.com/job-416133-software-engineer-at-infosys-4-bangalore-hyderabad-pune/"
+      "title": "Frontend Developer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-432408-frontend-developer-at-incred-financial-services-bangalore/"
     },
     {
       "company": "Infosys",
@@ -1025,31 +1086,38 @@
     {
       "company": "Infosys",
       "ats": "instahyre",
-      "title": "Full Stack Developer - Python",
-      "location": "Bangalore,Chennai,Hyderabad",
-      "url": "https://www.instahyre.com/job-416147-full-stack-developer-python-at-infosys-4-bangalore-chennai-hyderabad/"
+      "title": "Software Engineer",
+      "location": "Bangalore,Hyderabad,Pune",
+      "url": "https://www.instahyre.com/job-416133-software-engineer-at-infosys-4-bangalore-hyderabad-pune/"
     },
     {
-      "company": "Inkers Technology",
+      "company": "InMobi",
+      "ats": "instahyre",
+      "title": "Product Software Engineer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-423484-product-software-engineer-at-inmobi-bangalore/"
+    },
+    {
+      "company": "Leader AI",
+      "ats": "instahyre",
+      "title": "Software Engineer",
+      "location": "Gurgaon",
+      "url": "https://www.instahyre.com/job-443841-software-engineer-at-leader-ai-gurgaon/"
+    },
+    {
+      "company": "Macpower Digital Assets Edge",
       "ats": "jsearch",
-      "title": "Full Stack Engineer (Strong in React.js and Python)",
-      "location": "Bengaluru, Karnataka",
-      "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-strong-in-react-js-and-python-at-inkers-technology-4467863079",
-      "updatedAt": "2026-09-18T00:00:00.000Z"
+      "title": "Node.JS Software Engineer | New Delhi, IN",
+      "location": "New Delhi, Delhi",
+      "url": "https://www.efinancialcareers.com/jobs-India-New_Delhi-NodeJS_Software_Engineer.id23985744",
+      "updatedAt": null
     },
     {
-      "company": "MaxHome.AI",
+      "company": "Macromill",
       "ats": "instahyre",
-      "title": "Fullstack Engineer",
+      "title": "Mobile Engineer",
       "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-435770-fullstack-engineer-at-maxhome-bangalore/"
-    },
-    {
-      "company": "Meesho",
-      "ats": "instahyre",
-      "title": "Fullstack Developer",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-442214-fullstack-developer-at-meesho-bangalore/"
+      "url": "https://www.instahyre.com/job-433306-mobile-engineer-at-macromill-bangalore/"
     },
     {
       "company": "mercermettl",
@@ -1058,6 +1126,14 @@
       "location": "Gurugram, in",
       "url": "https://api.smartrecruiters.com/v1/companies/mercermettl/postings/743999929310044",
       "updatedAt": "2023-09-08T10:45:41.987Z"
+    },
+    {
+      "company": "Mercor",
+      "ats": "jsearch",
+      "title": "C Software Developer - Fully Remote | Upto $130/task Task based",
+      "location": "Bengaluru, India",
+      "url": "https://in.linkedin.com/jobs/view/c-software-developer-fully-remote-upto-%24130-task-task-based-at-mercor-4468428354",
+      "updatedAt": "2026-09-20T00:00:00.000Z"
     },
     {
       "company": "micron",
@@ -1083,35 +1159,34 @@
       "updatedAt": "1970-01-21T17:08:32.247Z"
     },
     {
-      "company": "NatWest Digital X",
-      "ats": "jsearch",
-      "title": "Software Engineer, Workday",
-      "location": "Gurugram, Haryana",
-      "url": "https://jobs.natwestgroup.com/jobs/18214342-software-engineer-workday",
-      "updatedAt": "2026-09-16T00:00:00.000Z"
-    },
-    {
-      "company": "NatWest Digital X",
-      "ats": "jsearch",
-      "title": "Software Engineer, AVP",
-      "location": "Bengaluru, Karnataka",
-      "url": "https://jobs.natwestgroup.com/jobs/18231849-software-engineer-avp",
-      "updatedAt": "2026-09-14T00:00:00.000Z"
+      "company": "Modefin",
+      "ats": "instahyre",
+      "title": "Backend Developer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-426855-backend-developer-at-modefin-bangalore/"
     },
     {
       "company": "NatWest Group",
       "ats": "jsearch",
-      "title": "Software Engineer, Android",
+      "title": "Software Engineer - AI, AVP",
       "location": "Gurugram, Haryana",
-      "url": "https://bebee.com/in/jobs/software-engineer-android-natwest-group-gurugram-haryana--t7xk-846374990",
-      "updatedAt": "2026-09-19T00:00:00.000Z"
+      "url": "https://jobs.natwestgroup.com/jobs/17937907-software-engineer-ai-avp",
+      "updatedAt": "2026-09-18T00:00:00.000Z"
     },
     {
-      "company": "Northern Arc Capital",
+      "company": "Neoqubit",
       "ats": "instahyre",
-      "title": "Software Engineer",
+      "title": "Frontend Engineer",
       "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-442060-software-engineer-at-northern-arc-capital-bangalore/"
+      "url": "https://www.instahyre.com/job-441537-frontend-engineer-at-neoqubit-bangalore/"
+    },
+    {
+      "company": "NetApp",
+      "ats": "jsearch",
+      "title": "Software Engineer (Full Stack Engineer)",
+      "location": "Bengaluru, Karnataka",
+      "url": "https://careers.netapp.com/job/bengaluru/software-engineer-full-stack-engineer/27600/96546594624",
+      "updatedAt": "2026-09-15T00:00:00.000Z"
     },
     {
       "company": "notion",
@@ -1126,6 +1201,13 @@
       "title": "Software Engineer, Developer Experience",
       "location": "Hyderabad, India",
       "url": "https://jobs.ashbyhq.com/notion/49bdf081-6e20-4323-8c73-6d6b19544ff5"
+    },
+    {
+      "company": "Nouveau Labs",
+      "ats": "instahyre",
+      "title": "Full Stack Developer (Python / Angular)",
+      "location": "Bangalore,Hyderabad",
+      "url": "https://www.instahyre.com/job-437285-full-stack-developer-python-angular-at-nouveau-labs-bangalore-hyderabad/"
     },
     {
       "company": "okta",
@@ -1144,34 +1226,19 @@
       "updatedAt": "2026-09-11T11:24:18-04:00"
     },
     {
-      "company": "OneIoT",
+      "company": "OpenFX",
+      "ats": "instahyre",
+      "title": "Backend Developer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-437641-backend-developer-at-openfx-bangalore/"
+    },
+    {
+      "company": "Prodigy Health AI",
       "ats": "jsearch",
-      "title": "Junior Backend Engineer",
-      "location": "Hyderabad, Telangana",
-      "url": "https://in.linkedin.com/jobs/view/junior-backend-engineer-at-oneiot-4466674917",
-      "updatedAt": "2026-09-18T00:00:00.000Z"
-    },
-    {
-      "company": "Petco",
-      "ats": "instahyre",
-      "title": "Full Stack Engineer",
-      "location": "Hyderabad",
-      "url": "https://www.instahyre.com/job-392652-full-stack-engineer-at-petco-hyderabad/"
-    },
-    {
-      "company": "Piramal Finance Limited",
-      "ats": "instahyre",
-      "title": "SDE 1 - AI",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-417085-sde-1-ai-at-piramal-finance-limited-bangalore/"
-    },
-    {
-      "company": "project44",
-      "ats": "greenhouse",
-      "title": "Software Engineer - Backend",
-      "location": "Bangalore",
-      "url": "https://job-boards.greenhouse.io/project44/jobs/7179793",
-      "updatedAt": "2026-06-19T06:08:08-04:00"
+      "title": "Software Engineer (Full Stack)",
+      "location": "New Delhi, Delhi",
+      "url": "https://in.linkedin.com/jobs/view/software-engineer-full-stack-at-prodigy-health-ai-4463000004",
+      "updatedAt": "2026-09-09T00:00:00.000Z"
     },
     {
       "company": "Quantum Capital Group",
@@ -1189,6 +1256,29 @@
       "updatedAt": "2026-09-08T09:31:36-04:00"
     },
     {
+      "company": "ScaleOrange Technologies",
+      "ats": "instahyre",
+      "title": "Full Stack Developer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-442007-full-stack-developer-at-scaleorange-technologies-bangalore/"
+    },
+    {
+      "company": "servicenow",
+      "ats": "smartrecruiters",
+      "title": "Software Engineer",
+      "location": "Hyderabad, in",
+      "url": "https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000150620709",
+      "updatedAt": "2026-09-21T07:50:49.368Z"
+    },
+    {
+      "company": "servicenow",
+      "ats": "smartrecruiters",
+      "title": "Software Engineer",
+      "location": "Hyderabad, in",
+      "url": "https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000150597519",
+      "updatedAt": "2026-09-21T05:24:06.518Z"
+    },
+    {
       "company": "Shell",
       "ats": "jsearch",
       "title": "Software Engineer - AI & Automation",
@@ -1197,32 +1287,32 @@
       "updatedAt": "2026-09-18T00:00:00.000Z"
     },
     {
-      "company": "Slikk",
+      "company": "ShortLoop",
       "ats": "instahyre",
-      "title": "Backend Developer",
+      "title": "Backend Engineer",
       "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-420106-backend-developer-at-slikk-bangalore/"
+      "url": "https://www.instahyre.com/job-440643-backend-engineer-at-shortloop-bangalore/"
     },
     {
-      "company": "Socure",
+      "company": "Snapdeal",
       "ats": "instahyre",
-      "title": "Site Reliability Engineer",
-      "location": "Bangalore,Chennai,Hyderabad",
-      "url": "https://www.instahyre.com/job-439213-site-reliability-engineer-at-socure-bangalore-chennai-hyderabad/"
+      "title": "Software Engineer 1",
+      "location": "Gurgaon",
+      "url": "https://www.instahyre.com/job-422412-software-engineer-1-at-snapdeal-2-gurgaon/"
     },
     {
-      "company": "Sprinklr",
+      "company": "Star Health and Allied Insurance",
       "ats": "instahyre",
-      "title": "Jr. Frontend Developer",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-368323-jr-frontend-developer-at-sprinklr-bangalore/"
+      "title": "Frontend Web Developer",
+      "location": "Gurgaon",
+      "url": "https://www.instahyre.com/job-443180-frontend-web-developer-at-star-health-and-allied-insurance-gurgaon/"
     },
     {
-      "company": "StockX",
+      "company": "Star Health and Allied Insurance",
       "ats": "instahyre",
-      "title": "Software Development Engineer in Test",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-404713-software-development-engineer-in-test-at-stockx-bangalore/"
+      "title": "Frontend Developer",
+      "location": "Gurgaon",
+      "url": "https://www.instahyre.com/job-443250-frontend-developer-at-star-health-and-allied-insurance-gurgaon/"
     },
     {
       "company": "stripe",
@@ -1231,6 +1321,21 @@
       "location": "Bengaluru, India",
       "url": "https://stripe.com/jobs/search?gh_jid=7543868",
       "updatedAt": "2026-09-10T13:11:58-04:00"
+    },
+    {
+      "company": "Subscribili",
+      "ats": "instahyre",
+      "title": "Software Developer",
+      "location": "Bangalore",
+      "url": "https://www.instahyre.com/job-428197-software-developer-at-subscribili-bangalore/"
+    },
+    {
+      "company": "TNS, Inc.",
+      "ats": "jsearch",
+      "title": "Software Development Engineer | Noida, IN",
+      "location": "Noida, Uttar Pradesh",
+      "url": "https://www.efinancialcareers.com/jobs-India-Noida-Software_Development_Engineer.id24646422",
+      "updatedAt": null
     },
     {
       "company": "truveta",
@@ -1257,11 +1362,12 @@
       "updatedAt": "2026-07-13T07:19:55-04:00"
     },
     {
-      "company": "Uber",
-      "ats": "instahyre",
-      "title": "Backend Engineer",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-421607-backend-engineer-at-uber-bangalore/"
+      "company": "Turing",
+      "ats": "jsearch",
+      "title": "Remote Software Engineer – Java",
+      "location": "Gurugram, India",
+      "url": "https://in.linkedin.com/jobs/view/remote-software-engineer-%E2%80%93-java-at-turing-4467839384",
+      "updatedAt": "2026-09-18T00:00:00.000Z"
     },
     {
       "company": "unacademy",
@@ -1272,42 +1378,11 @@
       "updatedAt": "2018-06-28T13:11:04.000Z"
     },
     {
-      "company": "Viven",
+      "company": "Zingly",
       "ats": "instahyre",
-      "title": "Backend Engineer",
+      "title": "Software Engineer",
       "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-395159-backend-engineer-at-viven-bangalore/"
-    },
-    {
-      "company": "VLink Inc",
-      "ats": "jsearch",
-      "title": "Software Engineer in Test",
-      "location": "Noida, Uttar Pradesh",
-      "url": "https://in.linkedin.com/jobs/view/software-engineer-in-test-at-vlink-inc-4469506455",
-      "updatedAt": "2026-09-19T00:00:00.000Z"
-    },
-    {
-      "company": "WaayuPay",
-      "ats": "instahyre",
-      "title": "Backend Engineer",
-      "location": "Bangalore",
-      "url": "https://www.instahyre.com/job-418641-backend-engineer-at-waayupay-bangalore/"
-    },
-    {
-      "company": "YASH Technologies",
-      "ats": "jsearch",
-      "title": "Software Engineer - Power BI Job",
-      "location": "Hyderabad, Telangana",
-      "url": "https://in.linkedin.com/jobs/view/software-engineer-power-bi-job-at-yash-technologies-4467592204",
-      "updatedAt": "2026-09-17T00:00:00.000Z"
-    },
-    {
-      "company": "Zaptics Research",
-      "ats": "jsearch",
-      "title": "Software Engineer in Noida, Noida",
-      "location": "Noida, Uttar Pradesh",
-      "url": "https://nextleap.app/jobs/engineering/software-engineer-in-noida-noida-zaptics-research/eisx51rz",
-      "updatedAt": "2026-09-16T00:00:00.000Z"
+      "url": "https://www.instahyre.com/job-443650-software-engineer-at-zingly-bangalore/"
     },
     {
       "company": "zoominfo",
